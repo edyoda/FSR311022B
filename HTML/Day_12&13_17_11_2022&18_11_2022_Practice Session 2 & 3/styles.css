@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    background-color: #ffebf7;
+    font-family: 'Poppins',sans-serif;
+}
+
+#container{
+    display: flex;
+    width: 60%;
+    margin: 100px auto;
+    background-color: #f6f6f6;
+    border-radius: 10px;
+    padding: 70px 25px;
+    box-shadow: 10px 10px 6px rgba(0,0,0,0.1) ;
+}
+
+#size{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+}
+
+.sizeValue{
+    padding: 15px 20px;
+    border: 2px solid #ffcfec;
+    margin: 0;
+    color: #ffa9dd;
+}
+
+#leftContainer{
+    width: 60%;
+}
+
+#rightContainer{
+    width: 40%;
+}
+
+#imgDiv{
+    width: 100%;
+}
+
+#shoeImage{
+    width: 90%;
+}
+
+#heading{
+    color: #ffa9dd;
+    font-weight: 600;
+}
+
+#subTitle{
+    margin: 0;
+    color: #ffa9dd;
+    font-weight: 600;
+}
+
+#title{
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+#price{
+    font-size: 32px;
+    margin: 0;
+    margin-bottom: 15px;
+    color: #ffa9dd;
+    font-weight: 600;
+}
+
+#btn{
+    font-size: 24px;
+    padding: 15px 50px;
+    background-color: #ffa9dd;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    width: 80%;
+}
+
+#down{
+    padding: 15px;
+    background-color: #ffa9dd;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    position: relative;
+    top: 3px;
+}

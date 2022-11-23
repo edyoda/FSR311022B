@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>Forms</title>
+        <link rel="stylesheet" href="./styles.css"/>
+    </head>
+    <body>
+        <h1>Signup</h1>
+        <form>
+            <p>Full Name</p>
+            <input type="text" name="name"  class='inputElement'/>
+            <p>Email:</p>
+            <input type="email" name="email" class='inputElement'/>
+            <p>Age</p>
+            <input type="number" name="age" class='inputElement'/>
+            <p>Password</p>
+            <input type="password" name="pwd" class='inputElement'/>
+            <p>Confirm Password</p>
+            <input type="password" name="confirmPwd" class='inputElement'/>
+            <p>Gender</p>
+            <input type="radio" name="gender"/> Male
+            <input type="radio" name="gender"/> Female
+            <input type="radio" name="gender"/> Others
+            <p>Date of Birth</p>
+            <input type="date" name="dob"/>
+            <p>Security Question</p>
+            <select class='inputElement'>
+                <option>What was your first pet name?</option>
+                <option>What's the DoB of your Mom ?</option>
+                <option>What's your favourite color ?</option>
+                <option>What is your fathers middle name ?</option>
+            </select>
+            <br/>
+            <textarea rows="5" cols="30" class='inputElement'></textarea><br/>
+            <p><input type="checkbox" name="agreement"/> I agree to accept terms and conditions.<br/></p>
+            <input type="submit" value="Register"/>
+        </form>
+    </body>
+</html>

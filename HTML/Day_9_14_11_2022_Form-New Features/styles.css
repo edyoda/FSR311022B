@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+h1{
+    font-family: 'Raleway', sans-serif;
+}
+
+body{
+    background-color: lightblue;
+}
+
+form{
+    background-color: #fff;
+    width: 30%;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.inputElement{
+    width: 100%;
+}
+
+h1{
+    text-align: center;
+}
+
+legend{
+    font-family: 'Raleway', sans-serif;
+    color: aqua;
+    font-size: 20px;
+}

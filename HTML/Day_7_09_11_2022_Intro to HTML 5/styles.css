@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#navContainer{
+    display: flex;
+    background-color: lightblue;
+}
+
+.navItems{
+    margin: 0;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.navItems:hover{
+    background-color: rgb(132, 186, 248);
+    cursor: pointer;
+}
+
+#mainContainer{
+    padding: 20px;
+    background-color: lightgreen;
+}
+
+article{
+    background-color: cyan;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+/* header{
+    font-size: 25px;
+    font-weight: 600;
+} */
+
+footer{
+    padding: 20px;
+    text-align: center;
+    background-color: lightcoral;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

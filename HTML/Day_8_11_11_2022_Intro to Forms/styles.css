@@ -1,0 +1,18 @@
+body{
+    background-color: lightblue;
+}
+
+form{
+    background-color: #fff;
+    width: 30%;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.inputElement{
+    width: 100%;
+}
+
+h1{
+    text-align: center;
+}
