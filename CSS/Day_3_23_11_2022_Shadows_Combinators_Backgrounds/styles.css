@@ -1,0 +1,46 @@
+/* *{
+    margin:0;
+    padding: 0;
+} */
+
+h1{
+    text-shadow: 4px 4px 4px orange, 2px 8px 4px green;
+    color: lightcoral;
+}
+
+#box{
+    width: 40%;
+    font-size: 18px;
+    margin: 10px auto;
+    padding: 30px;
+    box-shadow: 5px 5px 10px gray;
+    border-radius: 6px;
+}
+
+/* #container{
+    /* background-color: lightcoral; *;
+} */
+
+#container p{
+    font-size: 20px;
+    /* background-color: lightgreen; */
+}
+
+/* #container > p {
+    background-color: aqua;
+} */
+
+/* p + div{
+    background-color: yellow;
+} */
+
+/* p ~ div{
+    background-color: cadetblue;
+} */
+
+/* body{
+    background-image: url('./maple-leaf-border-background-orange-watercolor-autumn-season_53876-128735.webp');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+} */
