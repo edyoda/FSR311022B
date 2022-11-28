@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+#container{
+    display: flex;
+    justify-content: space-evenly;
+    width: 30%;
+    font-family: 'Poppins', sans-serif;
+    margin: 100px auto;
+    padding: 6px;
+    border-radius: 8px;
+}
+
+#blueTick{
+    display: none;
+}
+
+#color{
+    width: 30px;
+    height: 15px;
+    background-color: #9ED095;
+    border-radius: 10px;
+}
+
+#colorBox{
+    position: relative;
+    top: 10px;
+}
+
+span{
+    position: relative;
+    top: 6px;
+}
+
+#text span{
+    font-weight: 600;
+}
+
+#textDate span{
+    color: rgba(0,0,0,0.4);
+}
+
+#container:hover{
+    box-shadow: 0px 5px 30px rgba(0,0,0,0.2);
+    transform: scale(1.1);
+    transition: transform 400ms linear;
+}
+
+#container:hover #grayTick{
+    display: none;
+}
+
+#container:hover #blueTick{
+    display: block;
+}
+
+#test{
+    height: 200px;
+    width: 400px;
+    margin: 200px auto;
+    background-color: blueviolet;
+    border: 3px solid black;
+}
+
+#test:hover{
+    /* transform: translate(100px, 100px) */
+    transform: rotate(90deg);
+    /* transform: skew(30deg, 30deg); */
+    transition: transform 1s linear;
+}
