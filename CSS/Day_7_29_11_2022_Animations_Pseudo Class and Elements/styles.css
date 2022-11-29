@@ -1,0 +1,99 @@
+#div1{
+    /* column-count: 4; */
+    width: calc(100% - 200px);
+    margin: 0 auto;
+}
+#animate{
+    margin: 150px auto;
+    width: 500px;
+}
+#animate img{
+    height: 400px;
+    width: 500px;
+    animation: revolve 5000ms linear infinite forwards running;
+}
+
+@keyframes revolve{
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: scale(1.2) rotate(180deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+/* body{
+    background: url('https://img.freepik.com/premium-vector/sky-background-video-conferencing_23-2148616500.jpg?w=2000');
+} */
+
+#rocket{
+    height: 200px;
+    width: 180px;
+    position: relative;
+    top: 530px;
+    left: 45%;
+    animation: launch 5s  linear infinite running;
+}
+
+@keyframes launch{
+    0%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(-100vh);
+    }
+}
+/* 
+#hyperlink{
+    font-size: 48px;
+    color: aqua;
+}
+
+#hyperlink:visited{
+    color: brown;
+}
+
+#hyperlink:active{
+    color: pink;
+} */
+
+#textbox:disabled{
+    cursor: not-allowed;
+}
+#textbox:focus:required{
+    background-color: rgba(244, 143, 143, 0.471);
+}
+
+#textbox:focus{
+    background-color: yellow;
+}
+
+/* #container p:nth-last-child(2){
+    background-color: lightpink;
+} */
+
+p::first-line{
+    background-color: coral;
+    font-size: 18px;
+}
+
+/* p::first-letter{
+    font-size: 50px;
+    color: green;
+} */
+
+p::selection{
+    background-color: yellow;
+    color: blueviolet;
+}
+
+p::before{
+    content: '>';
+}
+
+p::after{
+    content: '<';
+}
