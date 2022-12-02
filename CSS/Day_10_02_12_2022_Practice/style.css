@@ -1,0 +1,35 @@
+div{
+    width: 30%;
+    height: 300px;
+    margin: 100px auto;
+    border: 2px solid black;
+    overflow: auto;
+    padding: 10px;
+}
+
+#heading{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: normal;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+}
+
+::-webkit-scrollbar-track{
+    background: rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: darkgray;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: gray;
+}
