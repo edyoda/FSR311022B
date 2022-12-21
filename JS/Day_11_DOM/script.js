@@ -6,13 +6,11 @@ console.log(document.querySelector('#header'))
 console.log(document.querySelectorAll('.test'))
 console.log(document.querySelectorAll('h1'))
 
-// var newHeader = document.createElement('h1')
-// var textNode = document.createTextNode('Hello bc!')
-// var element = document.getElementById('element')
+var newHeader = document.createElement('h1')
+var textNode = document.createTextNode('Hello!')
 newHeader.appendChild(textNode)
-element.appendChild(newHeader.appendChild(textNode))
-
 console.log(newHeader)
+document.body.appendChild(newHeader)
 
 var firstHeader = document.getElementById('header')
 console.log(firstHeader)
@@ -29,3 +27,26 @@ header1.style.backgroundColor = 'cyan'
 
 div.remove()
 header1.remove()
+
+var tasks = ['Revise JS', 'Practice Hands-On', 'Solve Assignments']
+
+/*
+
+    <ol>
+        <li>Revise JS</li>
+        <li>Practice Hands-On</li>
+        <li>Solve Assignments</li>
+    </ol>
+
+*/
+
+var list = document.createElement('ol')
+
+for(var i=0; i<tasks.length;i++){
+    var li = document.createElement('li')
+    var text = document.createTextNode(tasks[i])
+    li.appendChild(text)
+    list.appendChild(li)
+}
+
+document.body.appendChild(list)
