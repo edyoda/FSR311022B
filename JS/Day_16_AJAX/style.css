@@ -1,0 +1,10 @@
+.styleTask{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    background-color: lightblue;
+    border-radius:  10px;
+    width: 60%;
+    padding: 30px;
+    margin: 10px auto;
+}
