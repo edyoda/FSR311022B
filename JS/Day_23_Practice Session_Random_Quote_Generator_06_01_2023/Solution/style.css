@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    background: url("https://wallpaperaccess.com/full/1567846.jpg") no-repeat fixed center center;
+    font-family: 'Poppins', sans-serif;
+}
+
+#container{
+    width: 30%;
+    margin: 250px auto;
+}
+
+#quote{
+    font-size: 20px;
+}
+
+#author{
+    text-align: right;
+}
+
+#author::before{
+    content: '~';
+}
+
+#btnDiv{
+    text-align: center;
+}
+
+#btn{
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    background-color: #fdf2b8;
+    cursor: pointer;
+}
