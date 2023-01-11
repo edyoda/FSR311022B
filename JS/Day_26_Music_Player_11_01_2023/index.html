@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</head>
+<body>
+    <div id="main-wrapper">
+        <div id="audio-wrapper">
+            <audio id="audio-player" loop>
+                <source
+                    src="https://edyoda.s3.ap-south-1.amazonaws.com/public/musicfiles/5+Seconds+Of+Summer+-+Youngblood+(+).mp3"
+                    type="audio/mp3"
+                >
+            </audio>
+        </div>
+        <div id="banner">
+
+        </div>
+        <div id="progress-bar">
+            <div id="progress"></div>
+        </div>
+        <div id="btn-wrapper">
+            <button id="play-button">Play</button>
+            <button id="pause-button">Pause</button>
+            <button id="repeat">Repeat</button>
+            <button id="slow-speed">x0.5</button>
+            <button id="normal-speed">x1.0</button>
+            <button id="fast-speed">x2.0</button>
+            <button id="increment">+10s</button>
+            <button id="decrement">-10s</button>
+        </div>
+    </div>
+</body>
+</html>

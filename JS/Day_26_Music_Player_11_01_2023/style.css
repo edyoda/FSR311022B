@@ -1,0 +1,33 @@
+#progress-bar{
+    width: 400px;
+    height: 15px;
+    background-color: grey;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+#progress{
+    width: 0%;
+    height: 100%;
+    background-color: rgb(1, 187, 255);
+    border-radius: 10px;
+}
+
+#audio-wrapper, #btn-wrapper{
+    width: 400px;
+    margin: 40px auto;
+}
+
+#audio-wrapper{
+    margin-top: 120px;
+}
+
+#banner{
+    height: 400px;
+    width: 400px;
+    background: url("https://pm1.narvii.com/6806/3e2b13347653f657cefb76e8da003cf49e17adeav2_hq.jpg");
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:  0 auto 20px auto;
+}
